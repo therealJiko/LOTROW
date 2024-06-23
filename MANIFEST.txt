@@ -1,0 +1,15 @@
+Items top be uploaded here as followed:
+.3d models/ prefabs
+.textures for said prefabs
+.heightmaps
+.assets
+
+Items NOT to be uploaded as followed:
+.The UE project
+.Memes
+.Porn
+.Anything unrelated
+
+
+
+If you have any questions about what can be uploaded contact thejiko via the discord server
