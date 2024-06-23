@@ -1,3 +1,6 @@
+!!!USE THE DESKTOP VERSION OF GITHUB!!!
+
+
 Items top be uploaded here as followed:
 .3d models/ prefabs
 .textures for said prefabs
