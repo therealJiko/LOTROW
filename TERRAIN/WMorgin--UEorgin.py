@@ -21,7 +21,7 @@ def rename_tiles(directory, num_tiles_x, num_tiles_y):
                     new_tile_y = num_tiles_y - 1 - tile_y
                     
                     # Creating the new filename
-                    new_filename = pattern.sub(f'_x{tile_x}_y{new_tile_y}', file)
+                    new_filename = f'MEDEM_x{tile_x}_y{new_tile_y}.png'
                     new_temp_path = os.path.join(directory, new_filename + temp_suffix)
                     
                     # Collect the rename operation
@@ -57,4 +57,4 @@ def rename_tiles(directory, num_tiles_x, num_tiles_y):
         os.rename(temp_path, final_path)
 
 # Update this line with your directory and the number of tiles
-rename_tiles(r'D:\LOTROW\repository\LOTROW\TERRAIN\HEIGHT_64x64', num_tiles_x=6, num_tiles_y=7)
+rename_tiles(r'D:\LOTROW\repository\LOTROW\TERRAIN\height_ue', num_tiles_x=8, num_tiles_y=8)
